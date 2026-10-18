@@ -5,7 +5,7 @@ edition = "2024"
 
 [dependencies]
 libghostty-vt = { version = "0.2", features = ["png"] }
-wgpu = { version = "0.20", features = ["wgsl"] }
+wgpu = { version = "22", features = ["wgsl"] }
 winit = "0.30"
 egui = "0.29"
 egui-wgpu = "0.29"
@@ -16,3 +16,5 @@ serde = { version = "1", features = ["derive"] }
 toml = "0.8"
 uuid = { version = "1", features = ["v4", "serde"] }
 directories = "5"
+portable-pty = "0.8"
+pollster = "0.3"
