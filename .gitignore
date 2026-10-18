@@ -1,0 +1,31 @@
+# Rust
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.dll
+*.exe
+*.pdb
+
+# Zig (libghostty-vt-sys fetches/builds Ghostty)
+zig-cache/
+zig-out/
+
+# Cargo
+**/Cargo.lock
+
+# Local config (not committed)
+AGENTS.md
+kilo.json
+opencode.json

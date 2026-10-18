@@ -1,0 +1,18 @@
+[package]
+name = "schorl-terminal"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+libghostty-vt = { version = "0.2", features = ["png"] }
+wgpu = { version = "0.20", features = ["wgsl"] }
+winit = "0.30"
+egui = "0.29"
+egui-wgpu = "0.29"
+egui-winit = "0.29"
+bytemuck = "1"
+anyhow = "1"
+serde = { version = "1", features = ["derive"] }
+toml = "0.8"
+uuid = { version = "1", features = ["v4", "serde"] }
+directories = "5"
